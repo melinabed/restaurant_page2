@@ -1,0 +1,196 @@
+* {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  height: 100vh;
+  background-color: #fff7ed;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #3e362e;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+
+#home,
+#menu,
+#contact {
+  font-size: 1.25rem;
+  padding: 5px 10px;
+  border: none;
+  background-color: #3e362e;
+  color: white;
+}
+
+#home:hover,
+#menu:hover,
+#contact:hover {
+  text-decoration: underline white;
+  cursor: pointer;
+}
+
+#name {
+  font-size: 2.5rem;
+  text-align: center;
+
+  font-family: "Dancing Script", cursive;
+}
+
+#hours {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+#order-online {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.active {
+  text-decoration: underline white;
+}
+
+/*HOME PAGE*/
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url(images/restaurant_image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* MENU PAGE */
+
+.menu {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.entree,
+.app,
+.drinks,
+.hard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 360px;
+  color: #3e362e;
+}
+
+#entree-title,
+#app-title,
+#drink-title,
+#hard-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.entree-items-container,
+.app-items-container,
+.drink-items-container,
+.hard-items-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+}
+
+/* CONTACT PAGE */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: Arial, sans-serif;
+  height: 75vh;
+}
+
+#contact-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input,
+textarea {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #e5e7eb;
+  width: 100%;
+}
+
+#submit-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  background-color: #3e362e;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#submit-btn:active {
+  background-color: #584d43;
+}
